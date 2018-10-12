@@ -1,7 +1,7 @@
-
 public class Main {
 
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 		// első feladat elkészültdsf
 		for (int i = 0; i < args.length; i++) {
 			System.out.println(args[i]);
@@ -21,7 +21,21 @@ public class Main {
 			{
 				System.out.println(i);
 			}
-
+		// 4.feladat
+		int c=Integer.parseInt(args[2]);
+		for(int i = 0;i<c;i++)
+		{
+		if (c % i == 0)
+			{
+			System.out.println(i);
+			} 
+		
+		else 
+			{
+				System.out.println("Prímszám");
+			}
+		}
+		
+		
 	}
-
 }
